@@ -51,6 +51,6 @@ export default {
   },
 
   serverMiddleware: [
-    { path: '/api/joke', handler: '~/server-middleware/joke' }
+    { path: '/api/joke', handler: './server-middleware/joke' }
   ]
 }

@@ -26,6 +26,11 @@ export default Vue.extend({
     return {
       count: this.start
     }
+  },
+  methods: {
+    setCount(count: number) {
+      this.count = count;
+    }
   }
 })
 </script>
